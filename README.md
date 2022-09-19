@@ -2,9 +2,12 @@
 >Resolución de actividades propuestas a lo largo del Programa de Inserción Laboral
 ---
 ## Consignas
-### HTML
-- [x] Escribe un documento web que tenga un título y 2 párrafos.
-  - [x] Además, cada párrafo debe tener remarcadas palabras clave en negrita y, en cursiva.
-  - [x] Agrega etiquetas semánticas a fin de determinar el encabezado, la sección principal y el pie de página. 
-- [x] Agrega 3 imágenes de modo que, al hacer clic en cada una de ellas nos redireccione a un sitio externo o marcador a la misma página.
-  - [x] Cada imagen debe tener un título que haga referencia a la imagen que representa.
+### CSS
+En base a la actividad previa de HTML agregar estilos externos, internos y en línea a fin de comprender el concepto de “estilos en cascada”
+
+- [x] Selectores para las etiquetas HTML, class e ID, secundarios y universal.
+- [x] Definir en todos los títulos un tipo de fuente específico y un tamaño diferente para las etiquetas H1..H6
+- [x] Los H1 centrados y con un color.
+- [x] Un estilo puntual para los párrafos.
+- [x] En la imagen definir que ocupe el 100% del ancho de la pantalla.
+- [x] Agregar para los items del menú del Navbar que se dispongan inline y cambien el color de fondo cuando pase el mouse.
