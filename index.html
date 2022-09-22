@@ -1,56 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="rodrigo-contreras-sf" content="Full Stack .Net 2022">
-    <link rel="stylesheet" href="styles.css">
-    <style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="rodrigo-contreras-sf" content="Full Stack .Net 2022">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
 
-        h1, h3, p {
-            text-align:center;
-        }
+    h1, h3, p {
+      text-align:center;
+    }
+    
+    #img_planisferio, .img_bandera, #img_seleccion {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-        #img_planisferio, .img_bandera, #img_seleccion {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-    </style>
-    <title>Actividades Asincrónicas</title>
+  </style>
+  <title>Actividades Asincrónicas</title>
 </head>
-<body>
-    
-    <nav>
-        <a class="active" href="index.html">Inicio</a>
-        <a href="info.html">Selección</a>
-    </nav>
 
-    <header>
-        <h1 style="color: #545557;">Programa Inserción Laboral 2022</h2>
-    </header>
-    
+<body class="bg-info bg-gradient bg-opacity-10">
+  
+  <header>
+    <a class="active" href="./index.html">Inicio</a>
+    <a href="./info.html">Selección</a>
+  </header>
+
+  <nav>
+    <h1 style="color: #545557;">Programa Inserción Laboral 2022</h2>
+  </nav>
+
+  <article>
+
     <p style="font-size: small;">Text <b>bold</b>, Text <i>italic</i></p>
 
     <section>
-        <h3>Argentina</h3>
-        <a href="https://es.wikipedia.org/wiki/Argentina" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/ARG_orthographic_%28%2Ball_claims%29.svg/330px-ARG_orthographic_%28%2Ball_claims%29.svg.png" alt="mapamundi_argentina" id="img_planisferio" style="max-width: 100%">
-        </a>
-    
-        <h3>Bandera</h3>
-        <a href="https://es.wikipedia.org/wiki/Bandera_de_la_Argentina" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/188px-Flag_of_Argentina.svg.png" alt="img_bandera" class="img_bandera" style="max-width: 100%">
-        </a>
-    
-        <h3>Selección</h3>
-        <a href="about.html" target="_blank">
-            <img src="https://www.logolynx.com/images/logolynx/3e/3e5f09463963e2a4a9c12dae09da7dce.png" alt="escudo_seleccion_argentina" id="img_seleccion" style="max-width: 100%">
-        </a>
-    </section>
+      <h3>Argentina</h3>
+      <a href="https://es.wikipedia.org/wiki/Argentina" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/ARG_orthographic_%28%2Ball_claims%29.svg/330px-ARG_orthographic_%28%2Ball_claims%29.svg.png" alt="mapamundi_argentina" id="img_planisferio" style="max-width: 100%">
+      </a>
 
-    <footer></footer>
+      <h3>Bandera</h3>
+      <a href="https://es.wikipedia.org/wiki/Bandera_de_la_Argentina" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/188px-Flag_of_Argentina.svg.png" alt="img_bandera" class="img_bandera" style="max-width: 100%">
+      </a>
+
+      <h3>Selección</h3>
+      <a href="./info.html" target="_blank">
+        <img src="https://www.logolynx.com/images/logolynx/3e/3e5f09463963e2a4a9c12dae09da7dce.png" alt="escudo_seleccion_argentina" id="img_seleccion" style="max-width: 100%">
+      </a>
+    </section>
+  </article>
+
+  <footer class="position-relative fixed-bottom">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      @rodrigo-contreras-sf
+    </div>
+  </footer>
+
 </body>
 </html>

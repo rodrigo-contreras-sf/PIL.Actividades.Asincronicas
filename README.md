@@ -2,12 +2,7 @@
 >Resolución de actividades propuestas a lo largo del Programa de Inserción Laboral
 ---
 ## Consignas
-### CSS
-En base a la actividad previa de HTML agregar estilos externos, internos y en línea a fin de comprender el concepto de “estilos en cascada”
+### Bootstrap
+Haciendo uso del sistema de grillas, estilos y componentes de Bootstrap.
 
-- [x] Selectores para las etiquetas HTML, class e ID, secundarios y universal.
-- [x] Definir en todos los títulos un tipo de fuente específico y un tamaño diferente para las etiquetas H1..H6
-- [x] Los H1 centrados y con un color.
-- [x] Un estilo puntual para los párrafos.
-- [x] En la imagen definir que ocupe el 100% del ancho de la pantalla.
-- [x] Agregar para los items del menú del Navbar que se dispongan inline y cambien el color de fondo cuando pase el mouse.
+- [ ] Incorporar el sistema de grillas a fin de hacer la página web responsive.
