@@ -5,4 +5,4 @@
 ### Bootstrap
 Haciendo uso del sistema de grillas, estilos y componentes de Bootstrap.
 
-- [ ] Incorporar el sistema de grillas a fin de hacer la página web responsive.
+- [x] Incorporar el sistema de grillas a fin de hacer la página web responsive.

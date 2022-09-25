@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="rodrigo-contreras-sf" content="Full Stack .Net 2022">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./assets/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -14,12 +14,6 @@
     h1, h3, p {
       text-align:center;
     }
-    
-    #img_planisferio, .img_bandera, #img_seleccion {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
 
   </style>
   <title>Actividades Asincrónicas</title>
@@ -27,13 +21,17 @@
 
 <body class="bg-info bg-gradient bg-opacity-10">
   
-  <header>
-    <a class="active" href="./index.html">Inicio</a>
-    <a href="./info.html">Selección</a>
+  <header class="container-fluid">
+    <div class="row">
+      <a class="col-sm-2 col-md-2 active" href="./index.html">Inicio</a>
+      <a class="col-sm-2 col-md-2" href="./info.html">Selección</a>
+    </div>
   </header>
 
-  <nav>
-    <h1 style="color: #545557;">Programa Inserción Laboral 2022</h2>
+  <nav class="container-fluid">
+    <div class="row">
+      <h1 class="responsive-h1 col mt-4" style="color: #545557;">Programa Inserción Laboral 2022</h2>
+    </div>
   </nav>
 
   <article>
@@ -41,25 +39,79 @@
     <p style="font-size: small;">Text <b>bold</b>, Text <i>italic</i></p>
 
     <section>
-      <h3>Argentina</h3>
-      <a href="https://es.wikipedia.org/wiki/Argentina" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/ARG_orthographic_%28%2Ball_claims%29.svg/330px-ARG_orthographic_%28%2Ball_claims%29.svg.png" alt="mapamundi_argentina" id="img_planisferio" style="max-width: 100%">
-      </a>
+      
+      <div id="carouselExampleDark" class="carousel carousel-dark slide container" data-bs-ride="carousel">
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
 
-      <h3>Bandera</h3>
-      <a href="https://es.wikipedia.org/wiki/Bandera_de_la_Argentina" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/188px-Flag_of_Argentina.svg.png" alt="img_bandera" class="img_bandera" style="max-width: 100%">
-      </a>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
 
-      <h3>Selección</h3>
-      <a href="./info.html" target="_blank">
-        <img src="https://www.logolynx.com/images/logolynx/3e/3e5f09463963e2a4a9c12dae09da7dce.png" alt="escudo_seleccion_argentina" id="img_seleccion" style="max-width: 100%">
-      </a>
+            <div class="d-none d-sm-block"><br/></div>
+            <div class="d-flex justify-content-center text-center row">
+              <a href="https://es.wikipedia.org/wiki/Argentina" target="_blank">
+                <img src="./assets/planisferio_argentina_wikipedia.png" alt="mapamundi_argentina"  class="img-fluid col-4">
+              </a>
+            </div>
+
+            <div class="carousel-caption d-none d-md-block p-2">
+              <h5>Argentina</h5>
+              <p>El país mas austral del mundo se ubica en el continente americano</p>
+            </div>
+
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+
+            <div class="d-flex justify-content-center text-center row">
+              
+              <div class="d-none d-lg-block d-xl-block"><br/><br/><br/><br/></div>
+
+              <a href="https://es.wikipedia.org/wiki/Bandera_de_la_Argentina" target="_blank">
+                <img src="./assets/bandera_argentina.png" alt="img_bandera" class="img-fluid col-4 align-self-lg-center">
+              </a>
+            </div>
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bandera</h5>
+              <p>Creada en 1816, originalmente no tenía el sol que fue introducido dos años despues</p>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+
+            <div class="d-flex justify-content-center text-center row">
+              <a href="./info.html">
+                <img src="./assets/seleccion_argentina.png" alt="escudo_seleccion" id="img_seleccion" class="img-fluid col-3">
+              </a>
+            </div>
+
+            <div class="carousel-caption d-none d-md-block p-2">
+              <h5>Selección de fútbol</h5>
+              <p>Pionera del continente en asociarse a la FIFA</p>
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
     </section>
+
   </article>
 
-  <footer class="position-relative fixed-bottom">
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <footer class="position-relative fixed-bottom mt-4">
+    <div class="text-center p-3 responsive-footer" style="background-color: rgba(0, 0, 0, 0.2);">
       @rodrigo-contreras-sf
     </div>
   </footer>

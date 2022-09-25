@@ -1,0 +1,67 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .responsive-footer {
+        font-size: 1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .carousel-item {
+        height: 400px !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .responsive-footer {
+        font-size: 0.8rem;
+    }
+    .carousel-item {
+        height: 550px !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .responsive-footer {
+        font-size: 1rem;
+    }
+}
+
+h1 {
+    font-family: monospace, 'Lucida Sans', Verdana, sans-serif;
+}
+
+h3 {
+    font-family: system-ui;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #5D6464;
+    overflow: hidden;
+}
+  
+header a {
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 0.7rem 0.7rem;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+header a:hover {
+    background-color: #E0E0E0;
+    color: black;
+}
+
+header a.active {
+    background-color: #487D28;
+    color: white;
+}
